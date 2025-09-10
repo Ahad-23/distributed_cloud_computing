@@ -1,0 +1,74 @@
+# ----------------------
+# Java
+# ----------------------
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Maven / Gradle
+target/
+build/
+.gradle/
+out/
+
+# Eclipse / IntelliJ / VSCode project files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# ----------------------
+# C / C++
+# ----------------------
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+pip-wheel-metadata/
+
+# ----------------------
+# General / OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
