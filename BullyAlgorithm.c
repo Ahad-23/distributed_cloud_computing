@@ -20,8 +20,11 @@ int main()
     int processes[n];
     for (i = 0; i < n; i++)
         processes[i]=i+1;
+    printf("Process %d is the coordinator",processes[n-1]);
+    printf("Process %d fails",processes[n-1]);
     printf("Enter initiator process ID ");
     scanf("%d", &init);
+    
     printf("\nElection initiated by process %d\n", init);
     // Initiator sends election messages to all higher-ID processes
     for (i = 0; i < n; i++)
